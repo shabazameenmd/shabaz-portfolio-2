@@ -315,7 +315,7 @@ img {
 }
 
 .build-number {
-  grid-row: span 2;
+  grid-row: span 3;
   color: var(--primary);
   font-size: 0.78rem;
   font-weight: 700;
@@ -333,6 +333,7 @@ img {
 }
 
 .video-link {
+  grid-column: 2;
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
@@ -347,9 +348,10 @@ img {
 }
 
 .video-thumb {
-  width: 130px;
-  height: 78px;
-  object-fit: cover;
+  display: block;
+  width: min(520px, 72vw);
+  aspect-ratio: 16 / 9;
+  height: auto;
   border-radius: 10px;
   border: 1px solid var(--line);
   background: #dfeafc;
