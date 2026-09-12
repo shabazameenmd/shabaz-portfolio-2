@@ -332,6 +332,35 @@ img {
   margin: 0;
 }
 
+.video-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.8rem;
+  padding: 0.55rem 0.75rem 0.55rem 0.55rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  width: fit-content;
+  max-width: 100%;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.03);
+}
+
+.video-thumb {
+  width: 130px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #dfeafc;
+}
+
+.video-link span {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
 .timeline {
   display: grid;
   gap: 1.6rem;
